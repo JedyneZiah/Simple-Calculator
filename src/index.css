@@ -1,0 +1,35 @@
+body{
+  min-height: 100vh;
+  background-color: #c38df0;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px 0px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  width: 100%;
+  padding: 8px 0px;
+  margin-top: 2px;
+  border-radius: 5px;
+  border: none;
+  background-color: #3a033f;
+  color: white;
+}
+
+button:hover {
+  opacity: 80%;
+}
